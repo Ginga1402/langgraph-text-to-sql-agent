@@ -73,8 +73,11 @@ The system follows a modular, stateful architecture combining **LangGraph**, **O
 
 **Streamlit Interface**
 
+<img width="1915" height="1080" alt="Image" src="https://github.com/user-attachments/assets/93324b05-b375-4cff-a76f-c6a2cf9a2175" />
+
 **FastAPI Response**
 
+<img width="1718" height="878" alt="Image" src="https://github.com/user-attachments/assets/2a500b25-98ee-4743-baed-c7a76f5c35d1" />
 
 ---
 
