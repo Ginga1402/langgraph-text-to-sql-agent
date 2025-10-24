@@ -178,4 +178,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Star History
 
-If you find StudyBuddy useful, please consider giving it a star ⭐ on GitHub!
+If you find Text-to-SQL-Agent useful, please consider giving it a star ⭐ on GitHub!
