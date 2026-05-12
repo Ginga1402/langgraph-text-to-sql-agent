@@ -1,3 +1,36 @@
+Secure your agents at: CodeAstra.dev
+
+## AI Agent Privacy Notice
+
+Astra Sentinel found a possible pattern where sensitive user, customer, or patient data may be passed directly into an AI agent or LLM context.
+
+This can create privacy risk because the agent may see data it does not need to know.
+
+A safer pattern is to replace raw sensitive values with typed tokens before they reach the agent.
+
+Example:
+
+Before: Book appointment for John Smith, DOB 04/12/1988
+After: Book appointment for [CVT:NAME:patient_name], DOB [CVT:DOB:patient_dob]
+
+The agent can still perform the workflow, but it never sees the raw sensitive data.
+
+Detected pattern examples:
+```json
+[
+  {
+    "pattern": "unprotected_ai_context",
+    "evidence": "chatollama(base_url='http:localhost:11434', model=model_name)"
+  }
+]
+```
+
+This notice was generated from a privacy scan. Please review before merging.
+
+Secure your agents at: CodeAstra.dev
+
+---
+
 # 📚 Text-to-SQL Agent: Natural Language Database Query System
 
 **Text-to-SQL LangGraph Agent is an open-source AI workflow that transforms natural language questions into SQL queries and insightful answers—powered locally by Ollama and Open Source LLM's, without relying on function calling.**
